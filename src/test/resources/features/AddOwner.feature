@@ -3,7 +3,7 @@ Feature: Find Owners
   Background:
     Given The user launches the website
 
-    Scenario: User should be able to add a new owner, and add pet a for that owner
+    Scenario: User should be able to add a new owner, add a pet for that owner, and verify the added information
 
       Given  The user is on find owners page
 
