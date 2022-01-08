@@ -12,8 +12,8 @@ public class HomePage extends BaseClass {
 
     public static void verifyImage()
     {
-        //WebElement image= driver.findElement(By.xpath(".//img[@class=‘img-responsive']"));
-        WebElement image = driver.findElement(By.xpath("/html/body/div[1]/div/div[1]/div/img"));
+
+        WebElement image = driver.findElement(By.xpath(".//div[1]/div/img"));
         boolean imagePresent = image.isDisplayed();
 
         Assert.assertTrue(imagePresent, "Test Failed, the image does not exist");
